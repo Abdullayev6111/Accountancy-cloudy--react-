@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+button {
+    cursor: pointer;
+}
+
 @font-face {
     font-family: roboto-b;
     src: url(./font/Roboto_Condensed-Bold.ttf);
@@ -25,7 +29,6 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 /* Header start */
@@ -73,6 +76,12 @@ header {
     color: black;
     font-family: roboto-b;
     font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: black;
+    color: white;
 }
 
 .btn-exp {
@@ -84,6 +93,13 @@ header {
     font-size: 18px;
     font-family: roboto-b;
     border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-exp:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 /* Header end */
@@ -141,6 +157,13 @@ header {
     border: none;
     font-family: roboto-b;
     font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 .hero-top img {
