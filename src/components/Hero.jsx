@@ -13,10 +13,10 @@ function Hero() {
                         <p>Switching to us is simple</p>
                         <button className="btn-hero">Talk to us</button>
                     </div>
-                    <img src="../../public/images/hero-top-img.png" alt="" />
+                    <img src="/images/hero-top-img.png" alt="" />
                 </div>
                 <div className="hero-bottom">
-                    <img src="../../public/images/hero-bottom-img.png" alt="" />
+                    <img src="/images/hero-bottom-img.png" alt="" />
                     <div className="hero-bottom-right">
                         <h1>
                             The best finance <br /> stack for <br />
