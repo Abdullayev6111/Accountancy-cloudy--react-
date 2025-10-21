@@ -36,7 +36,9 @@ button {
 header {
     width: 80%;
     height: 53px;
-    margin: 27px 145px 63px 145px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 63px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,6 +102,11 @@ header {
     background-color: transparent;
     color: black;
     border: 1px solid black;
+}
+
+.header-logo {
+    width: 195px;
+    height: 42px;
 }
 
 /* Header end */
@@ -603,4 +610,113 @@ footer {
     font-size: 16px;
     line-height: 22px;
     color: #c5e9ea;
+}
+
+/* Footer end */
+
+/* Responsiver design start */
+
+@media (max-width: 1200px) {
+    header {
+        gap: 50px;
+    }
+    .navbar {
+        gap: 10px;
+    }
+    .btn-login {
+        width: 80px;
+    }
+    .btn-exp {
+        width: 170px;
+    }
+    .hero-top img {
+        width: 550px;
+        height: 450px;
+    }
+    .hero-top-left {
+        padding-right: 25px;
+    }
+    .hero-top-left h4 {
+        font-size: 18px;
+    }
+    .hero-top-left p {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        width: 92%;
+    }
+    .hero-top {
+        width: 92%;
+    }
+    .hero-bottom {
+        width: 92%;
+    }
+    .btn-exp {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .btn-login {
+        width: 70px;
+        height: 42px;
+        font-size: 16px;
+        border-radius: 40px;
+    }
+    .hero-top img {
+        width: 450px;
+        right: 50px;
+    }
+    .hero-top-left h1 {
+        font-size: 68px;
+    }
+    .hero-bottom-right h1 {
+        font-size: 40px;
+    }
+    .hero-bottom-right p {
+        font-size: 18px;
+    }
+    .switch {
+        width: 92%;
+    }
+    .plans-content {
+        width: 92%;
+    }
+    .companies {
+        width: 92%;
+    }
+    .companies-content {
+        width: 650px;
+    }
+    .hub {
+        width: 92%;
+    }
+    .expert {
+        width: 92%;
+    }
+    footer {
+        width: 92%;
+    }
+    .navbar-buttons {
+        gap: 10px;
+    }
+    .btn-hero {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 360px) {
 }

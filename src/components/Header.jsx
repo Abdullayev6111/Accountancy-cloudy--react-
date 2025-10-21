@@ -2,7 +2,11 @@ function Header() {
     return (
         <section className="container">
             <header>
-                <img src="/images/header-logo.png" alt="" />
+                <img
+                    className="header-log"
+                    src="/images/header-logo.png"
+                    alt=""
+                />
                 <div className="navbar">
                     <div className="navbar-content">
                         <ul>
