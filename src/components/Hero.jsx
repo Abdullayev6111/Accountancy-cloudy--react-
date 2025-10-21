@@ -16,8 +16,16 @@ function Hero() {
                     <img src="/images/hero-top-img.png" alt="" />
                 </div>
                 <div className="hero-bottom">
-                    <img src="/images/hero-bottom-img.png" alt="" />
-                    <div className="hero-bottom-right">
+                    <img
+                        data-aos="fade-up"
+                        src="/images/hero-bottom-img.png"
+                        alt=""
+                    />
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="2000"
+                        className="hero-bottom-right"
+                    >
                         <h1>
                             The best finance <br /> stack for <br />
                             entrepreneurs

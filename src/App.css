@@ -181,6 +181,7 @@ header {
     flex-direction: row;
     gap: 104px;
     align-items: center;
+    padding-bottom: 108px;
 }
 
 .hero-bottom-right {
@@ -213,3 +214,393 @@ header {
 /* Hero end */
 
 /* Switch section start */
+
+.switch {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    padding-bottom: 125px;
+}
+
+.switch h1 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 58px;
+    color: black;
+}
+
+.switch-content {
+    width: 100%;
+    display: flex;
+    gap: 55px;
+    justify-content: flex-start;
+    padding-top: 63px;
+    margin-bottom: 54px;
+}
+
+.switch-content-card {
+    width: 309px;
+    height: 333px;
+    transition: transform 0.3s ease;
+}
+
+.switch-content-card:hover img {
+    transform: scale(1.09);
+}
+
+.switch-content-card img {
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.switch-content-card h2 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.switch-content-card p {
+    font-family: roboto-r;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+.switch-content-card p span {
+    color: #335c81;
+    text-decoration: underline;
+}
+
+.switch button {
+    width: 235px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #f7b2b7;
+    color: black;
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+}
+
+/* Switch section end */
+
+/* Plans section start */
+
+.plans {
+    width: 100%;
+    background-color: #fdeced;
+    padding-top: 55px;
+}
+
+.plans-content {
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.plans-content h1 {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.plans-content-cards {
+    display: flex;
+    gap: 55px;
+    padding-top: 63px;
+}
+
+.plans-card {
+    width: 309px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-card img {
+    width: 100%;
+    height: 174px;
+    margin-bottom: 24px;
+}
+
+.plans-card h2 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+.plans-card p {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+/* Plans section end */
+
+/* Companies section start */
+
+.companies {
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companies h2 {
+    margin-top: 20px;
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: black;
+}
+
+.companies-content {
+    width: 700px;
+    height: 360px;
+    padding: 0 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.companies-content img {
+    margin-bottom: 36px;
+    transition: transform 0.3s ease;
+}
+
+.companies-content img:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+/* Companies section end */
+
+/* Hub section start */
+
+.hub {
+    width: 80%;
+    height: 637px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hub-left {
+    width: 560px;
+    height: 288px;
+    padding-right: 17px;
+}
+
+.hub-left h1 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 58px;
+    color: black;
+    margin-top: 20px;
+}
+
+.hub-left p {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    margin-top: 20px;
+}
+
+.hub-left button {
+    width: 140px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #f7b2b7;
+    color: black;
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    margin-top: 79px;
+}
+
+.hub img {
+    width: 483px;
+    height: 451px;
+}
+
+/* Hub section end */
+
+/* Expert section start */
+
+.expert {
+    width: 80%;
+    height: 263px;
+    margin: 108px auto;
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #8bd4d6;
+}
+
+.expert-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.expert-content h1 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: black;
+}
+
+.expert-content p {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.expert button {
+    background-color: black;
+    color: white;
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    width: 160px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.expert button:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+/* Expert section end */
+
+/* Footer start */
+
+.footer-bg {
+    background-color: #302e3f;
+    margin-bottom: 30px;
+    padding: 45px 0;
+}
+
+footer {
+    width: 80%;
+    height: 541px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-top img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-top h1 {
+    color: white;
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.footer-content-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 45px;
+}
+
+.card1 {
+    margin-left: -18px;
+}
+
+.footer-content-card h4 {
+    font-family: roboto-b;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.footer-content-card p {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #c5e9ea;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.footer-bottom-content {
+    display: flex;
+    gap: 27px;
+    margin-top: 50px;
+}
+
+.footer-bottom-content h3 {
+    font-family: roboto-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #c5e9ea;
+}
